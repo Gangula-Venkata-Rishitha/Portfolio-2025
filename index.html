@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Gangula Venkata Rishitha</title>
+
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+</head>
+<body>
+  <header class="site-header" id="header">
+    <div class="nav container">
+      <a class="brand" href="#home">
+        <span class="brand__dot"></span>
+        <span class="brand__text">GVR</span>
+      </a>
+
+      <nav class="nav__menu" id="myNavMenu">
+        <a href="#home" class="nav__link active-link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#education" class="nav__link">Education</a>
+        <a href="#experience" class="nav__link">Experience</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__cta">
+        <a class="btn btn--ghost" href="RESUME.pdf" download>
+          Download CV <i class="uil uil-file-alt"></i>
+        </a>
+        <button class="nav__toggle" aria-label="Toggle menu" onclick="myMenuFunction()">
+          <i class="uil uil-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ====== HERO ====== -->
+    <section class="section hero" id="home">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Hello, I’m</p>
+          <h1 class="hero__title">Gangula Venkata Rishitha</h1>
+          <p class="hero__typed"><span class="typedText"></span></p>
+          <p class="hero__desc">
+            Final-year Computer Science student passionate about development, generative AI, and building scalable web solutions.
+          </p>
+          <div class="hero__actions">
+            <a class="btn" href="#contact">Hire Me</a>
+            <a class="btn btn--ghost" href="RESUME.pdf" download>Download CV</a>
+          </div>
+          <div class="socials">
+            <a class="social" href="https://www.linkedin.com/in/g-v-rishitha" target="_blank"><i class="uil uil-linkedin"></i></a>
+            <a class="social" href="https://github.com/Gangula-Venkata-Rishitha" target="_blank"><i class="uil uil-github"></i></a>
+          </div>
+        </div>
+        <div class="hero__image-wrap">
+          <div class="avatar">
+            <img src="assets/images/avatar.jpg" alt="Profile photo of Gangula Venkata Rishitha" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section__head">
+          <h2>About Me</h2>
+          <p class="section__tagline">A quick snapshot of who I am</p>
+        </div>
+        <div class="about__grid">
+          <div class="card about__card">
+            <h3 class="card__title">My Introduction</h3>
+            <p class="card__body">
+              I’m a passionate developer focused on backend development, generative AI, and scalable web solutions. Through internships and projects, I’ve built strong skills in Python, Java, automation tools, and software engineering principles. I value clarity, performance, and teamwork.
+            </p>
+          </div>
+          <div class="card about__facts">
+            <div class="facts__item">
+              <span class="facts__label">Location</span>
+              <span class="facts__value">Andhra Pradesh, India</span>
+            </div>
+            <div class="facts__item">
+              <span class="facts__label">Email</span>
+              <a class="facts__value link" href="mailto:devirishi1004@gmail.com">devirishi1004@gmail.com</a>
+            </div>
+            <div class="facts__item">
+              <span class="facts__label">Graduation</span>
+              <span class="facts__value">2026</span>
+            </div>
+            <div class="facts__item">
+              <span class="facts__label">Interests</span>
+              <span class="facts__value">Full Stack, AI, Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section__head">
+          <h2>Skills</h2>
+          <p class="section__tagline">What I work with</p>
+        </div>
+
+        <div class="skills__grid">
+          <div class="card">
+            <h3 class="card__title">Languages</h3>
+            <div class="chips">
+              <span class="chip">C</span>
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Web Development</h3>
+            <div class="chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+              <span class="chip">React</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 class="card__title">Core & Tools</h3>
+            <div class="chips">
+              <span class="chip">DSA</span>
+              <span class="chip">Computer Networks</span>
+              <span class="chip">DBMS</span>
+              <span class="chip">Operating Systems</span>
+              <span class="chip">Git/GitHub</span>
+              <span class="chip">Generative AI</span>
+              <span class="chip">n8n Automation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EDUCATION ====== -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section__head">
+          <h2>Education</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>B.Tech in Computer Science & Engineering</h3>
+              <p class="muted">JNTU College of Engineering, Anantapur • 2022 – 2026 • CGPA: 8.63</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>Intermediate (MPC)</h3>
+              <p class="muted">Sri Chaitanya Junior College, Anantapur • 2020 – 2022 • 97.1%</p>
+            </div>
+          </div>
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>SSC</h3>
+              <p class="muted">Sri Chaitanya English Medium High School • 2019 – 2020 • GPA: 10.0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EXPERIENCE ====== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section__head">
+          <h2>Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>Associate Software Engineer Intern – Accenture India</h3>
+              <p class="muted">May 2025 – July 2025 • On-site</p>
+              <ul>
+                <li>Worked on Rapid Data Loader (RDL) for efficient data migration.</li>
+                <li>Supported SAP ERP deployment through testing and collaboration.</li>
+              </ul>
+              <a class="link" href="https://drive.google.com/file/d/1nj7yDHOAhxnetvZDPi1YPVXAwLBTMVXc/view" target="_blank">Click here</a>
+            </div>
+          </div>
+
+          <div class="timeline__item">
+            <div class="timeline__dot"></div>
+            <div class="timeline__content">
+              <h3>Intern Instructor – TICT Computers</h3>
+              <p class="muted">Jun 2023 – Jan 2024 • On-site</p>
+              <ul>
+                <li>Taught C and Python fundamentals with practical exercises.</li>
+                <li>Designed coding labs to strengthen programming skills.</li>
+              </ul>
+              <a class="link" href="https://drive.google.com/file/d/1LlKD2-JpqMfvTx2VHritzLjbXvhyDx8W/view" target="_blank">Click here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PROJECTS ====== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section__head">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card project">
+            <h3>Blink-Based Cognitive Load Detection</h3>
+            <p>Built a lightweight EAR/MediaPipe pipeline to extract blink features and demonstrated improved feature stability across controlled and noisy environments.</p>
+            <a class="btn btn--ghost" href="https://github.com/Gangula-Venkata-Rishitha/Blink-Detection-Noisy-Environments" target="_blank"><i class="uil uil-github"></i> Code</a>
+          </article>
+
+          <article class="card project">
+            <h3>Online Seminar Management</h3>
+            <p>A full-stack web app to manage HOD accounts and departmental data efficiently.</p>
+            <a class="btn btn--ghost" href="https://github.com/Gangula-Venkata-Rishitha/JNTUA_SEMINAR" target="_blank"><i class="uil uil-github"></i> Code</a>
+          </article>
+
+          <article class="card project">
+            <h3>Fine-Tuned ChatBot</h3>
+            <p>Developed a document-aware chatbot using Cohere LLM, LangChain, and FAISS for semantic retrieval and context-aware Q&A.</p>
+            <a class="btn btn--ghost" href="https://github.com/Gangula-Venkata-Rishitha/finetuned_chatbot" target="_blank"><i class="uil uil-github"></i> Code</a>
+          </article>
+
+          <article class="card project">
+            <h3>Web Development Projects</h3>
+            <p>Production-ready websites for various events and organizations:</p>
+            <a class="link" href="https://tictcomputers.onrender.com" target="_blank">TICT Computers</a> |
+            <a class="link" href="https://ching-chong.netlify.app" target="_blank">Friends Webpage</a> |
+            <a class="link" href="https://collegeday2025.netlify.app" target="_blank">College Fest</a> |
+            <a class="link" href="https://race2k25.netlify.app" target="_blank">Technical Symposium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   <!-- ====== CERTIFICATIONS ====== -->
+<section class="section" id="certifications">
+  <div class="container">
+    <div class="section__head">
+      <h2>Certifications</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3 class="card__title">Certificate in Cloud Computing</h3>
+        <p class="card__body">NPTEL • 2025</p>
+        <a class="link" href="https://drive.google.com/file/d/1vSiCLhiPnZ4OnqNYeviuQfYyByoVYYYa/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Python DSA + LeetCode</h3>
+        <p class="card__body">Udemy • 2025</p>
+        <a class="link" href="https://drive.google.com/file/d/1TuEinLD3MWBgWeE3NsypTT2NjbQtkFpY/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Databases & SQL</h3>
+        <p class="card__body">Stanford (edX) • 2024</p>
+        <a class="link" href="https://drive.google.com/file/d/1LYXPx-HGbDzLEw_iRV64UQka7JQN9i9w/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">HTML5 & CSS</h3>
+        <p class="card__body">W3CX (edX) • 2024</p>
+        <a class="link" href="https://drive.google.com/file/d/1EjrA06vIRAQupTIEy_0c_YC9xkWZFa43/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Python Basics for Data Science</h3>
+        <p class="card__body">IBM (edX) • 2024</p>
+        <a class="link" href="https://drive.google.com/file/d/1Ek306-UJTez7h3O0oKhA3CH-PuoVoUbr/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Learning Linux for LFCA</h3>
+        <p class="card__body">Coursera • 2023</p>
+        <a class="link" href="https://drive.google.com/file/d/1_ZnlJHJGkR6kx0SFkwIBP_I200bTy7_X/view" target="_blank">View</a>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Full Stack Web Development</h3>
+        <p class="card__body">Internshala • 2023</p>
+        <a class="link" href="https://drive.google.com/file/d/1V4ebl37ZJUIZsdNqm2uzr8T5Mtn9uxWV/view" target="_blank">View</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ====== EXTRA-CURRICULAR ====== -->
+<section class="section" id="activities">
+  <div class="container">
+    <div class="section__head">
+      <h2>Extra-Curricular Activities</h2>
+    </div>
+
+    <div class="cards">
+      <article class="card">
+        <h3 class="card__title">Smart India Hackathon</h3>
+        <p class="card__body">Contributed to innovative, team-based solutions for real-world problems.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Google DevFest</h3>
+        <p class="card__body">Attended international conferences and symposiums, exploring new technologies.</p>
+      </article>
+
+      <article class="card">
+        <h3 class="card__title">Zero-Waste Campaign</h3>
+        <p class="card__body">Organized an awareness campaign at Kudair Mandal to promote sustainable waste management.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <!-- ====== CONTACT ====== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contact</h2>
+          <p class="section__tagline">Let’s connect!</p>
+        </div>
+        <div class="contact__grid">
+          <div class="card contact__card">
+            <h3 class="card__title">Reach Me</h3>
+            <p><i class="uil uil-envelope"></i> <a class="link" href="mailto:devirishi1004@gmail.com">devirishi1004@gmail.com</a></p>
+            <p><i class="uil uil-phone"></i> <a class="link" href="tel:+919550567164">+91 95505 67164</a></p>
+            <p><i class="uil uil-map-marker"></i> Andhra Pradesh, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <p>© <span id="year"></span> Gangula Venkata Rishitha</p>
+      <div class="footer__links">
+        <a class="link" href="#home">Home</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#projects">Projects</a>
+        <a class="link" href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="main.js"></script>
+</body>
+</html>
